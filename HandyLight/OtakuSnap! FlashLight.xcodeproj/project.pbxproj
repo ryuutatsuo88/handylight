@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C812236616F1B6650040EF57 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C812236516F1B6650040EF57 /* InfoViewController.m */; };
+		C848ABC916F1109200C56F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABC816F1109200C56F72 /* UIKit.framework */; };
+		C848ABCB16F1109200C56F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABCA16F1109200C56F72 /* Foundation.framework */; };
+		C848ABCD16F1109200C56F72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABCC16F1109200C56F72 /* CoreGraphics.framework */; };
+		C848ABD316F1109200C56F72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C848ABD116F1109200C56F72 /* InfoPlist.strings */; };
+		C848ABD516F1109200C56F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C848ABD416F1109200C56F72 /* main.m */; };
+		C848ABD916F1109200C56F72 /* HandyLightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C848ABD816F1109200C56F72 /* HandyLightAppDelegate.m */; };
+		C848ABE216F1109200C56F72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C848ABE016F1109200C56F72 /* MainStoryboard.storyboard */; };
+		C848ABE516F1109200C56F72 /* HandyLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C848ABE416F1109200C56F72 /* HandyLightViewController.m */; };
+		C848ABED16F1109200C56F72 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABEC16F1109200C56F72 /* SenTestingKit.framework */; };
+		C848ABEE16F1109200C56F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABC816F1109200C56F72 /* UIKit.framework */; };
+		C848ABEF16F1109200C56F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C848ABCA16F1109200C56F72 /* Foundation.framework */; };
+		C848ABF716F1109200C56F72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C848ABF516F1109200C56F72 /* InfoPlist.strings */; };
+		C848ABFA16F1109200C56F72 /* HandyLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C848ABF916F1109200C56F72 /* HandyLightTests.m */; };
+		C848AC0A16F152AA00C56F72 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C848AC0716F152AA00C56F72 /* Helper.m */; };
+		C848AC0B16F152AA00C56F72 /* KnobViewSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C848AC0916F152AA00C56F72 /* KnobViewSensor.m */; };
+		C84C321316F245AB006FE16E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C321216F245AB006FE16E /* iAd.framework */; };
+		C84C321F16F24B71006FE16E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C321E16F24B71006FE16E /* MessageUI.framework */; };
+		C84C322116F24B7A006FE16E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C322016F24B7A006FE16E /* SystemConfiguration.framework */; };
+		C84C32B816F24BD5006FE16E /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C328716F24BD5006FE16E /* libGoogleAdMobAds.a */; };
+		C84C32B916F24BD5006FE16E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C84C328816F24BD5006FE16E /* README.txt */; };
+		C84C32BE16F24D3E006FE16E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C32BD16F24D3E006FE16E /* AdSupport.framework */; };
+		C84C32C016F24D49006FE16E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C32BF16F24D49006FE16E /* StoreKit.framework */; };
+		C84C32C216F24D59006FE16E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C32C116F24D59006FE16E /* AudioToolbox.framework */; };
+		C84C32C416F2733B006FE16E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84C32C316F2733B006FE16E /* Social.framework */; };
+		C85DE96916F1896C007EEA93 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C848AC0716F152AA00C56F72 /* Helper.m */; };
+		C85DE96A16F1896C007EEA93 /* KnobViewSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C848AC0916F152AA00C56F72 /* KnobViewSensor.m */; };
+		C85DE97016F1A3AB007EEA93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85DE96F16F1A3AB007EEA93 /* AVFoundation.framework */; };
+		C8D1656C16FE6E8D00D7ED96 /* green1.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D1656A16FE6E8D00D7ED96 /* green1.png */; };
+		C8D1656D16FE6E8D00D7ED96 /* red2.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D1656B16FE6E8D00D7ED96 /* red2.png */; };
+		C8FBC08116F95A510065AABC /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FBC07D16F95A510065AABC /* power.png */; };
+		C8FBC08216F95A510065AABC /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FBC07E16F95A510065AABC /* dots.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C848ABF016F1109200C56F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C848ABBD16F1109200C56F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C848ABC416F1109200C56F72;
+			remoteInfo = HandyLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C812236416F1B6650040EF57 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		C812236516F1B6650040EF57 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		C848ABC516F1109200C56F72 /* OtakuSnap! FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OtakuSnap! FlashLight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C848ABC816F1109200C56F72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C848ABCA16F1109200C56F72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C848ABCC16F1109200C56F72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C848ABD016F1109200C56F72 /* OtakuSnap! FlashLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OtakuSnap! FlashLight-Info.plist"; sourceTree = "<group>"; };
+		C848ABD216F1109200C56F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C848ABD416F1109200C56F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C848ABD616F1109200C56F72 /* OtakuSnap! FlashLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OtakuSnap! FlashLight-Prefix.pch"; sourceTree = "<group>"; };
+		C848ABD716F1109200C56F72 /* HandyLightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandyLightAppDelegate.h; sourceTree = "<group>"; };
+		C848ABD816F1109200C56F72 /* HandyLightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandyLightAppDelegate.m; sourceTree = "<group>"; };
+		C848ABE116F1109200C56F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C848ABE316F1109200C56F72 /* HandyLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandyLightViewController.h; sourceTree = "<group>"; };
+		C848ABE416F1109200C56F72 /* HandyLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandyLightViewController.m; sourceTree = "<group>"; };
+		C848ABEB16F1109200C56F72 /* OtakuSnap! FlashLightTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OtakuSnap! FlashLightTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C848ABEC16F1109200C56F72 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C848ABF416F1109200C56F72 /* OtakuSnap! FlashLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OtakuSnap! FlashLightTests-Info.plist"; sourceTree = "<group>"; };
+		C848ABF616F1109200C56F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C848ABF816F1109200C56F72 /* HandyLightTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandyLightTests.h; sourceTree = "<group>"; };
+		C848ABF916F1109200C56F72 /* HandyLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandyLightTests.m; sourceTree = "<group>"; };
+		C848AC0616F152AA00C56F72 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		C848AC0716F152AA00C56F72 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		C848AC0816F152AA00C56F72 /* KnobViewSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobViewSensor.h; sourceTree = "<group>"; };
+		C848AC0916F152AA00C56F72 /* KnobViewSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobViewSensor.m; sourceTree = "<group>"; };
+		C84C321216F245AB006FE16E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C84C321E16F24B71006FE16E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C84C322016F24B7A006FE16E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C84C327E16F24BD5006FE16E /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		C84C327F16F24BD5006FE16E /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		C84C328016F24BD5006FE16E /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		C84C328116F24BD5006FE16E /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		C84C328216F24BD5006FE16E /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		C84C328316F24BD5006FE16E /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		C84C328416F24BD5006FE16E /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		C84C328516F24BD5006FE16E /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		C84C328616F24BD5006FE16E /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		C84C328716F24BD5006FE16E /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		C84C328816F24BD5006FE16E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		C84C32BD16F24D3E006FE16E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C84C32BF16F24D49006FE16E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C84C32C116F24D59006FE16E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C84C32C316F2733B006FE16E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C85DE96F16F1A3AB007EEA93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C8D1656A16FE6E8D00D7ED96 /* green1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green1.png; sourceTree = "<group>"; };
+		C8D1656B16FE6E8D00D7ED96 /* red2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red2.png; sourceTree = "<group>"; };
+		C8FBC07D16F95A510065AABC /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		C8FBC07E16F95A510065AABC /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C848ABC216F1109200C56F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84C32C416F2733B006FE16E /* Social.framework in Frameworks */,
+				C84C32C216F24D59006FE16E /* AudioToolbox.framework in Frameworks */,
+				C84C32C016F24D49006FE16E /* StoreKit.framework in Frameworks */,
+				C84C32BE16F24D3E006FE16E /* AdSupport.framework in Frameworks */,
+				C84C322116F24B7A006FE16E /* SystemConfiguration.framework in Frameworks */,
+				C84C321F16F24B71006FE16E /* MessageUI.framework in Frameworks */,
+				C84C321316F245AB006FE16E /* iAd.framework in Frameworks */,
+				C85DE97016F1A3AB007EEA93 /* AVFoundation.framework in Frameworks */,
+				C848ABC916F1109200C56F72 /* UIKit.framework in Frameworks */,
+				C848ABCB16F1109200C56F72 /* Foundation.framework in Frameworks */,
+				C848ABCD16F1109200C56F72 /* CoreGraphics.framework in Frameworks */,
+				C84C32B816F24BD5006FE16E /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848ABE716F1109200C56F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848ABED16F1109200C56F72 /* SenTestingKit.framework in Frameworks */,
+				C848ABEE16F1109200C56F72 /* UIKit.framework in Frameworks */,
+				C848ABEF16F1109200C56F72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C848ABBC16F1109200C56F72 = {
+			isa = PBXGroup;
+			children = (
+				C848ABCE16F1109200C56F72 /* HandyLight */,
+				C848ABF216F1109200C56F72 /* HandyLightTests */,
+				C848ABC716F1109200C56F72 /* Frameworks */,
+				C848ABC616F1109200C56F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C848ABC616F1109200C56F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C848ABC516F1109200C56F72 /* OtakuSnap! FlashLight.app */,
+				C848ABEB16F1109200C56F72 /* OtakuSnap! FlashLightTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C848ABC716F1109200C56F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84C32C316F2733B006FE16E /* Social.framework */,
+				C84C32C116F24D59006FE16E /* AudioToolbox.framework */,
+				C84C32BF16F24D49006FE16E /* StoreKit.framework */,
+				C84C32BD16F24D3E006FE16E /* AdSupport.framework */,
+				C84C322016F24B7A006FE16E /* SystemConfiguration.framework */,
+				C84C321E16F24B71006FE16E /* MessageUI.framework */,
+				C84C321216F245AB006FE16E /* iAd.framework */,
+				C85DE96F16F1A3AB007EEA93 /* AVFoundation.framework */,
+				C848ABC816F1109200C56F72 /* UIKit.framework */,
+				C848ABCA16F1109200C56F72 /* Foundation.framework */,
+				C848ABCC16F1109200C56F72 /* CoreGraphics.framework */,
+				C848ABEC16F1109200C56F72 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C848ABCE16F1109200C56F72 /* HandyLight */ = {
+			isa = PBXGroup;
+			children = (
+				C84C321416F24B17006FE16E /* admob */,
+				C848AC0516F1527700C56F72 /* KnobSensor */,
+				C848ABD716F1109200C56F72 /* HandyLightAppDelegate.h */,
+				C848ABD816F1109200C56F72 /* HandyLightAppDelegate.m */,
+				C812236416F1B6650040EF57 /* InfoViewController.h */,
+				C812236516F1B6650040EF57 /* InfoViewController.m */,
+				C848ABE016F1109200C56F72 /* MainStoryboard.storyboard */,
+				C848ABE316F1109200C56F72 /* HandyLightViewController.h */,
+				C848ABE416F1109200C56F72 /* HandyLightViewController.m */,
+				C848ABCF16F1109200C56F72 /* Supporting Files */,
+			);
+			path = HandyLight;
+			sourceTree = "<group>";
+		};
+		C848ABCF16F1109200C56F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D1656A16FE6E8D00D7ED96 /* green1.png */,
+				C8D1656B16FE6E8D00D7ED96 /* red2.png */,
+				C8FBC07D16F95A510065AABC /* power.png */,
+				C8FBC07E16F95A510065AABC /* dots.png */,
+				C848ABD016F1109200C56F72 /* OtakuSnap! FlashLight-Info.plist */,
+				C848ABD116F1109200C56F72 /* InfoPlist.strings */,
+				C848ABD416F1109200C56F72 /* main.m */,
+				C848ABD616F1109200C56F72 /* OtakuSnap! FlashLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C848ABF216F1109200C56F72 /* HandyLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				C848ABF816F1109200C56F72 /* HandyLightTests.h */,
+				C848ABF916F1109200C56F72 /* HandyLightTests.m */,
+				C848ABF316F1109200C56F72 /* Supporting Files */,
+			);
+			path = HandyLightTests;
+			sourceTree = "<group>";
+		};
+		C848ABF316F1109200C56F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C848ABF416F1109200C56F72 /* OtakuSnap! FlashLightTests-Info.plist */,
+				C848ABF516F1109200C56F72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C848AC0516F1527700C56F72 /* KnobSensor */ = {
+			isa = PBXGroup;
+			children = (
+				C848AC0616F152AA00C56F72 /* Helper.h */,
+				C848AC0916F152AA00C56F72 /* KnobViewSensor.m */,
+				C848AC0816F152AA00C56F72 /* KnobViewSensor.h */,
+				C848AC0716F152AA00C56F72 /* Helper.m */,
+			);
+			name = KnobSensor;
+			sourceTree = "<group>";
+		};
+		C84C321416F24B17006FE16E /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				C84C322216F24BD5006FE16E /* GoogleAdMobAdsSdkiOS-6.3.0 */,
+			);
+			name = admob;
+			sourceTree = "<group>";
+		};
+		C84C322216F24BD5006FE16E /* GoogleAdMobAdsSdkiOS-6.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C84C327E16F24BD5006FE16E /* GADAdMobExtras.h */,
+				C84C327F16F24BD5006FE16E /* GADAdNetworkExtras.h */,
+				C84C328016F24BD5006FE16E /* GADAdSize.h */,
+				C84C328116F24BD5006FE16E /* GADBannerView.h */,
+				C84C328216F24BD5006FE16E /* GADBannerViewDelegate.h */,
+				C84C328316F24BD5006FE16E /* GADInterstitial.h */,
+				C84C328416F24BD5006FE16E /* GADInterstitialDelegate.h */,
+				C84C328516F24BD5006FE16E /* GADRequest.h */,
+				C84C328616F24BD5006FE16E /* GADRequestError.h */,
+				C84C328716F24BD5006FE16E /* libGoogleAdMobAds.a */,
+				C84C328816F24BD5006FE16E /* README.txt */,
+			);
+			path = "GoogleAdMobAdsSdkiOS-6.3.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C848ABC416F1109200C56F72 /* OtakuSnap! FlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C848ABFD16F1109200C56F72 /* Build configuration list for PBXNativeTarget "OtakuSnap! FlashLight" */;
+			buildPhases = (
+				C848ABC116F1109200C56F72 /* Sources */,
+				C848ABC216F1109200C56F72 /* Frameworks */,
+				C848ABC316F1109200C56F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OtakuSnap! FlashLight";
+			productName = HandyLight;
+			productReference = C848ABC516F1109200C56F72 /* OtakuSnap! FlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C848ABEA16F1109200C56F72 /* OtakuSnap! FlashLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C848AC0016F1109200C56F72 /* Build configuration list for PBXNativeTarget "OtakuSnap! FlashLightTests" */;
+			buildPhases = (
+				C848ABE616F1109200C56F72 /* Sources */,
+				C848ABE716F1109200C56F72 /* Frameworks */,
+				C848ABE816F1109200C56F72 /* Resources */,
+				C848ABE916F1109200C56F72 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C848ABF116F1109200C56F72 /* PBXTargetDependency */,
+			);
+			name = "OtakuSnap! FlashLightTests";
+			productName = HandyLightTests;
+			productReference = C848ABEB16F1109200C56F72 /* OtakuSnap! FlashLightTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C848ABBD16F1109200C56F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HandyLight;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dizdarevic, Rijad";
+			};
+			buildConfigurationList = C848ABC016F1109200C56F72 /* Build configuration list for PBXProject "OtakuSnap! FlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C848ABBC16F1109200C56F72;
+			productRefGroup = C848ABC616F1109200C56F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C848ABC416F1109200C56F72 /* OtakuSnap! FlashLight */,
+				C848ABEA16F1109200C56F72 /* OtakuSnap! FlashLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C848ABC316F1109200C56F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848ABD316F1109200C56F72 /* InfoPlist.strings in Resources */,
+				C848ABE216F1109200C56F72 /* MainStoryboard.storyboard in Resources */,
+				C84C32B916F24BD5006FE16E /* README.txt in Resources */,
+				C8FBC08116F95A510065AABC /* power.png in Resources */,
+				C8FBC08216F95A510065AABC /* dots.png in Resources */,
+				C8D1656C16FE6E8D00D7ED96 /* green1.png in Resources */,
+				C8D1656D16FE6E8D00D7ED96 /* red2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848ABE816F1109200C56F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848ABF716F1109200C56F72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C848ABE916F1109200C56F72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C848ABC116F1109200C56F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85DE96916F1896C007EEA93 /* Helper.m in Sources */,
+				C85DE96A16F1896C007EEA93 /* KnobViewSensor.m in Sources */,
+				C848ABD516F1109200C56F72 /* main.m in Sources */,
+				C848ABD916F1109200C56F72 /* HandyLightAppDelegate.m in Sources */,
+				C848ABE516F1109200C56F72 /* HandyLightViewController.m in Sources */,
+				C812236616F1B6650040EF57 /* InfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848ABE616F1109200C56F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848ABFA16F1109200C56F72 /* HandyLightTests.m in Sources */,
+				C848AC0A16F152AA00C56F72 /* Helper.m in Sources */,
+				C848AC0B16F152AA00C56F72 /* KnobViewSensor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C848ABF116F1109200C56F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C848ABC416F1109200C56F72 /* OtakuSnap! FlashLight */;
+			targetProxy = C848ABF016F1109200C56F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C848ABD116F1109200C56F72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C848ABD216F1109200C56F72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C848ABE016F1109200C56F72 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C848ABE116F1109200C56F72 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C848ABF516F1109200C56F72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C848ABF616F1109200C56F72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C848ABFB16F1109200C56F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C848ABFC16F1109200C56F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C848ABFE16F1109200C56F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rijad Dizdarevic";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rijad Dizdarevic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyLight/OtakuSnap! FlashLight-Prefix.pch";
+				INFOPLIST_FILE = "HandyLight/OtakuSnap! FlashLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HandyLight/GoogleAdMobAdsSdkiOS-6.3.0/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
+					"\"$(SRCROOT)/HandyLight/GoogleAdMobAdsSdkiOS-6.3.0\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "OtakuSnap! FlashLight";
+				PROVISIONING_PROFILE = "6610ED3B-19CA-41C1-9ED1-24483E2E872E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6610ED3B-19CA-41C1-9ED1-24483E2E872E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C848ABFF16F1109200C56F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rijad Dizdarevic";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rijad Dizdarevic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyLight/OtakuSnap! FlashLight-Prefix.pch";
+				INFOPLIST_FILE = "HandyLight/OtakuSnap! FlashLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HandyLight/GoogleAdMobAdsSdkiOS-6.3.0/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
+					"\"$(SRCROOT)/HandyLight/GoogleAdMobAdsSdkiOS-6.3.0\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "OtakuSnap! FlashLight";
+				PROVISIONING_PROFILE = "6610ED3B-19CA-41C1-9ED1-24483E2E872E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6610ED3B-19CA-41C1-9ED1-24483E2E872E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C848AC0116F1109200C56F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandyLight.app/HandyLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyLight/HandyLight-Prefix.pch";
+				INFOPLIST_FILE = "HandyLightTests/OtakuSnap! FlashLightTests-Info.plist";
+				PRODUCT_NAME = "OtakuSnap! FlashLightTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C848AC0216F1109200C56F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandyLight.app/HandyLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandyLight/HandyLight-Prefix.pch";
+				INFOPLIST_FILE = "HandyLightTests/OtakuSnap! FlashLightTests-Info.plist";
+				PRODUCT_NAME = "OtakuSnap! FlashLightTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C848ABC016F1109200C56F72 /* Build configuration list for PBXProject "OtakuSnap! FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848ABFB16F1109200C56F72 /* Debug */,
+				C848ABFC16F1109200C56F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C848ABFD16F1109200C56F72 /* Build configuration list for PBXNativeTarget "OtakuSnap! FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848ABFE16F1109200C56F72 /* Debug */,
+				C848ABFF16F1109200C56F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C848AC0016F1109200C56F72 /* Build configuration list for PBXNativeTarget "OtakuSnap! FlashLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848AC0116F1109200C56F72 /* Debug */,
+				C848AC0216F1109200C56F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C848ABBD16F1109200C56F72 /* Project object */;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A3BC05C-3381-4F5D-B766-09EA36AD7A97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OtakuSnap! FlashLight</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55F97F0A-3197-4D6D-A1ED-9DAB6151E4CA</key>
+		<string>https://handy-light.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HandyLight/OtakuSnap! FlashLight.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55F97F0A-3197-4D6D-A1ED-9DAB6151E4CA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>55F97F0A-3197-4D6D-A1ED-9DAB6151E4CA</key>
+		<string>https://handy-light.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://handy-light.googlecode.com/svn/trunk/HandyLight/OtakuSnap!%20FlashLight.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55F97F0A-3197-4D6D-A1ED-9DAB6151E4CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55F97F0A-3197-4D6D-A1ED-9DAB6151E4CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>handy-light</string>
+		</dict>
+	</array>
+</dict>
+</plist>
