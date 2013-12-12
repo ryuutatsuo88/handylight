@@ -2,7 +2,7 @@ Handylight
 ==========
 
 Handylight is a iOS iPhone app which I used to teach myself iOS development. I did submit the app but 
-do to the high number of Flashlight apps and with iOS7 having a build in Flashlight it was rejected. 
+due to the high number of Flashlight apps and with iOS7 having a build in Flashlight it was rejected. 
 
 List of things I learned while building
 ---------------------------------------
